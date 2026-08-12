@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>OnePane Stable Updates</title>
+    <item>
+      <title>OnePane @MARKETING_VERSION@</title>
+      <pubDate>@PUBLICATION_DATE@</pubDate>
+      <sparkle:version>@BUILD_VERSION@</sparkle:version>
+      <sparkle:shortVersionString>@MARKETING_VERSION@</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description sparkle:format="plain-text">@RELEASE_NOTES@</description>
+      <enclosure
+        url="https://api.github.com/repos/smande00/one-pane/releases/assets/@ASSET_ID@"
+        length="@ASSET_LENGTH@"
+        type="application/octet-stream"
+        sparkle:edSignature="@ED_SIGNATURE@" />
+    </item>
+  </channel>
+</rss>
