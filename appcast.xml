@@ -3,18 +3,18 @@
   <channel>
     <title>OnePane Stable Updates</title>
     <item>
-      <title>OnePane 0.9.35</title>
-      <pubDate>Thu, 22 Oct 2026 14:32:51 +0000</pubDate>
-      <sparkle:version>64</sparkle:version>
-      <sparkle:shortVersionString>0.9.35</sparkle:shortVersionString>
+      <title>OnePane 0.9.36</title>
+      <pubDate>Wed, 28 Oct 2026 21:18:52 +0000</pubDate>
+      <sparkle:version>65</sparkle:version>
+      <sparkle:shortVersionString>0.9.36</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0.0</sparkle:minimumSystemVersion>
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
       <description sparkle:format="plain-text">A trusted OnePane update is available.</description>
       <enclosure
-        url="https://api.github.com/repos/smande00/one-pane/releases/assets/666120142"
-        length="12947038"
+        url="https://api.github.com/repos/smande00/one-pane/releases/assets/686373512"
+        length="12970408"
         type="application/octet-stream"
-        sparkle:edSignature="YRDlwI/KU9mWzxO+G3YA9CyK1DplU2gLrIx0+ed+vu5KrFFouC+d7BtQBibsJAmCr0o/MdDCQgOy1qQKUs2JDg==" />
+        sparkle:edSignature="yjGjoowueLHetDtTyeMjYVH2OPP1XUiuMWX7hRXP54N9GhsO3vq4leO1nhqxXp5x6M+iFEZXx3JnxcXq5YKhDw==" />
     </item>
   </channel>
 </rss>
